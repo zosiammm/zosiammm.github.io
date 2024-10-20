@@ -1,15 +1,71 @@
-body
-
-{
-    background-color: pink;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Ustawienie białego tła na całą stronę */
 }
-p
-{
-    color:lavenderblush;
+
+/* Stylizacja nagłówka i stopki */
+ footer {
+    background-color: #de66ae;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #de66ae;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: justify ;
+    text-indent: 70px;
+}
+
+
+
+.header {
+    border: 2px solid #de66ae;
+    width: 100%;
+    position: relative;
+  }
+  
+.wrapper {
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+  }
+/* Obrazek w tle tylko w sekcji main */
+main {
+    width: 97%;
+    min-height: 500px; /* Minimalna wysokość */
+    background-image: url("pointy.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
     font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(232, 115, 223);
 }
 
-img
+/* Dodatkowe style dla sekcji z białym tłem po obrazku */
+section {
+    background-color: white; /* Ustawienie białego tła na dalszą część strony */
+    text-align: justify;
+}
+p,h2
 {
-    height: 100px;
+    color:rgb(8, 8, 8);
+    font-weight: bold;
+    padding: 10px;
+    text-indent: 500px;
 }
