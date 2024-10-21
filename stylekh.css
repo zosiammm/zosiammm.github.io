@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Ustawienie białego tła na całą stronę */
+}
+
+/* Stylizacja nagłówka i stopki */
+ footer {
+    background-color: #de66ae;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #de66ae;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: justify ;
+    text-indent: 70px;
+}
+
+
+
+.header {
+    border: 2px solid #de66ae;
+    width: 100%;
+    position: relative;
+  }
+  
+.wrapper {
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+  }
+
+
+
+
+p,h2
+{
+    color:rgb(8, 8, 8);
+    font-weight: bold;
+    padding: 10px;
+    text-indent: 500px;
+}
+h1{
+    color:rgb(8, 8, 8);
+    font-weight: bold;
+    padding: 10px;
+    text-indent: 50px;
+    text-size-adjust: 5px; 
+}
+
+main {
+padding: 500px;
+padding-left: 300px;
+padding-right: 300px;
+}
